@@ -1,0 +1,14 @@
+@use "../abstracts" as *;
+@use "../base" as *;
+@use "../components" as *;
+@use "../layout" as *;
+
+.home-hero {
+  &-cont {
+    @include flex-box(column, flex-start, stretch, 0);
+  }
+  &-top,
+  &-bottom {
+    @include flex-box(row, space-between, center, 32px );
+  }
+}
