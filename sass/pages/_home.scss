@@ -4,6 +4,8 @@
 @use "../layout" as *;
 
 .home-hero {
+  padding-bottom: 16px;
+  
   &-cont {
     @include flex-box(column, flex-start, stretch, 0);
   }

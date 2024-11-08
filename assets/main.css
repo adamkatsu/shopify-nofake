@@ -80,12 +80,16 @@ p {
   width: 100%;
   height: 532px;
 }
+.slider-full-section {
+  padding-top: 16px;
+}
 .slider-full-main {
   position: relative;
   width: 100%;
+  border: 1px solid #ffffff;
 }
 .slider-full-slide {
-  background-color: #c3c3c3;
+  background-color: rgba(255, 255, 255, 0.2);
   width: 100%;
   height: 100%;
   text-align: center;
@@ -130,6 +134,9 @@ section {
   margin: auto;
 }
 
+.home-hero {
+  padding-bottom: 16px;
+}
 .home-hero-cont {
   display: flex;
   flex-direction: column;
